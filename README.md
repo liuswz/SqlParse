@@ -6,7 +6,7 @@
 
 最后把sql封装成一个以子查询为粒度的多叉树的数据结构QueryResult，
 
-##使用方法
+## 使用方法
 
     public static void main(String[] args){
         QueryResult queryResult = null;
@@ -25,7 +25,7 @@ ParseException是语法错误异常，parseRunningException是解析错误异常
 返回的QueryResult对象是一个树结构，包括sql所有信息、如select字段，where条件等，child结点就是子查询的信息。
 推荐大家使用debug测试一下，看看QueryResult的结构
 
-##实现方法
+## 实现方法
 举个例子 输入sql语句：
 
 
